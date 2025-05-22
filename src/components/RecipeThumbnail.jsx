@@ -1,19 +1,17 @@
-import React, { useEffect, useRef } from "react";
-import RecipeCard from "./RecipeCard";
+import React from "react";
+import { useNavigate } from "react-router";
 
 export default function RecipeThumbnail({ recipe }) {
-  const dialogRef = useRef(null);
+  const nav = useNavigate();
 
   function openRecipe() {
-    console.log("Dialgo: ", dialogRef.current);
-    dialogRef.current.showModal();
+    nav("/recipe", { state: { recipe: recipe } });
   }
 
   return (
     <>
-      <RecipeCard dialogRef={dialogRef} recipe={recipe} />
       <div className="thumbnail" onClick={openRecipe}>
-        <h2 className="thumbnail_title">{recipe.title}</h2>
+        <span className="thumbnail_title">{recipe.title}</span>
         <img className="thumbnail_img" src={recipe.img_path}></img>
       </div>
     </>

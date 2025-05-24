@@ -132,4 +132,7 @@ content {
     padding: 0;
     margin: auto;
   }
+  .recipe_title {
+    padding-top: 50px;
+  }
 }

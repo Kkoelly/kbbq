@@ -2,9 +2,20 @@
   padding: 0;
   margin: 0;
 }
+.flag_icon {
+  width: 50px;
+  border: 2px solid black;
+  margin: 0px 20px;
+}
 .header {
   text-align: center;
   margin: 50px 0px 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  font-family: "Oldenburg", serif;
+  font-weight: bold;
 }
 content {
   display: flex;
@@ -22,14 +33,16 @@ content {
 }
 
 .thumbnail_title {
+  text-align: center;
+  width: 90%;
   font-size: xx-large;
-  text-wrap: nowrap;
-  color: white;
+  color: rgb(255, 255, 255);
   position: absolute;
   z-index: 2;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: "Oldenburg", serif;
 }
 
 .thumbnail_img {
@@ -56,7 +69,9 @@ content {
 
 .recipe_title {
   text-align: center;
-  padding: 50px 0px 20px 0px;
+  padding: 50px 10px 20px 10px;
+  font-family: "Oldenburg", serif;
+  font-size: xx-large;
 }
 
 .card_img {
@@ -67,20 +82,30 @@ content {
 
 .recipe_content {
   padding: 0px 100px;
-  font-size: large;
 }
 .recipe_header {
   margin: 30px 0px 10px 0px;
-}
-.ingredient_section {
-  margin-bottom: 10px;
-}
-.list_item {
-  margin-left: 20px;
-  margin-bottom: 5px;
+  font-family: "Oldenburg", serif;
+  font-size: 1.8rem;
 }
 
-@media (max-width: 500px) {
+.section_header {
+  font-family: "Oldenburg", serif;
+  font-size: x-large;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+.ingredient_section {
+  margin-bottom: 30px;
+}
+.list_item {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: x-large;
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 700px) {
   content {
     flex-direction: column;
     align-items: center;
@@ -88,6 +113,7 @@ content {
   .thumbnail {
     width: 80%;
     margin: 0px auto 10px auto;
+    background-color: transparent;
   }
   .thumbnail_title {
     font-size: x-large;
@@ -96,6 +122,7 @@ content {
   .recipe {
     width: 100%;
     border-radius: 0;
+    background-color: transparent;
   }
   .card_img {
     width: 90%;

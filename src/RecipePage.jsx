@@ -20,7 +20,7 @@ export default function RecipePage() {
           <ul>
             {recipe.ingredients.map((ingredient) => (
               <section className="ingredient_section">
-                <h3>{ingredient.section}</h3>
+                <h3 className="section_header">{ingredient.section}</h3>
                 {ingredient.items.map((item) => (
                   <li className="list_item">{item}</li>
                 ))}

@@ -1,7 +1,7 @@
 export const recipes = [
   {
     title: "Bulgogi Jeongol",
-    img_path: "src/images/bulgogi_jeongol.jpg",
+    img_path: "images/bulgogi_jeongol.jpg",
     ingredients: [
       {
         section: "Beef",
@@ -45,7 +45,7 @@ export const recipes = [
   },
   {
     title: "Bulgogi (Mongolian Beef Style)",
-    img_path: "src/images/mongolian_bulgogi.jpg",
+    img_path: "images/mongolian_bulgogi.jpg",
     ingredients: [
       {
         section: "Beef",
@@ -66,7 +66,7 @@ export const recipes = [
   },
   {
     title: "Bulgogi (Kebab Style)",
-    img_path: "src/images/bulgogi_kebab.jpg",
+    img_path: "images/bulgogi_kebab.jpg",
     ingredients: [
       {
         section: "Beef",

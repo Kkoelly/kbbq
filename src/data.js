@@ -36,11 +36,11 @@ export const recipes = [
       },
     ],
     instructions: [
-      "Soaked the noodle in warm water for 30 minutes",
-      "Marinate the thinly sliced beef with half of the sauce for about an hour. Keep the left of the sauce.",
+      "Soak the noodles in warm water for 30 minutes.",
+      "Marinate the thinly sliced beef with half of the sauce for about an hour. Keep the rest of the sauce.",
       "Cut the carrot, Green onion, and Enoki mushroom into thin, bite size pieces. Thinly slice the onion and White Mushroom.",
-      "Using a wide, shallow pot, neatly arrange the bulgogi, noodles and vegetables in clusters. Pour the rest of the sauce in the pot",
-      "Cook over high heat. Once the meat is fully cooked, lower the heat low and enjoy!!",
+      "Using a wide, shallow pot, neatly arrange the bulgogi, noodles and vegetables in clusters. Pour the rest of the sauce in the pot.",
+      "Cook over high heat. Once the meat is fully cooked, lower the heat and enjoy!!",
     ],
   },
   {
@@ -49,7 +49,7 @@ export const recipes = [
     ingredients: [
       {
         section: "Beef",
-        items: ['Slice the Tri-Tip into thin ¼" pieces - 1lb'],
+        items: ['Slice the Tri Tip into thin ¼" pieces - 1lb'],
       },
       { section: "Sauce", items: ["Korean Bulgogi Sauce - ½ Cup"] },
       {
@@ -76,7 +76,7 @@ export const recipes = [
       {
         section: "Vegetables",
         items: [
-          "Zucchini  - 1",
+          "Zucchini - 1",
           "Red/White Onion - 1",
           "Bell Pepper - 3",
           "White Mushroom - 8 oz",
@@ -85,17 +85,15 @@ export const recipes = [
     ],
     instructions: [
       "Place the sliced beef in a bowl and marinate it with Korean bulgogi sauce for about 30 minutes.",
-      "Thread the beef onto skewers",
-      "Cut the vegetables into similar-sized pieces so they cook evenly. Aim for 1 to 1.5-inch chunks",
-      "In a large bowl, toss the vegetables with olive oil, salt, pepper",
-      "Thread the vegetables onto skewers",
-      "Preheat the grill to medium-high. Cook the kebabs for about 10-15 minutes, turning occasionally, until vegetables are tender and slightly charred",
+      "Thread the beef onto skewers.",
+      "Cut the vegetables into similar-sized pieces so they cook evenly. Aim for 1 to 1.5-inch chunks.",
+      "In a large bowl, toss the vegetables with olive oil, salt, pepper.",
+      "Thread the vegetables onto skewers.",
+      "Preheat the grill to medium-high. Cook the kebabs for about 10-15 minutes, turning occasionally, until vegetables are tender and slightly charred.",
     ],
   },
-  // {
-  //   title: "",
-  //   img_path: "",
-  //   ingredients: [{ section: "", items: [] }],
-  //   instructions: [],
-  // },
+  {
+    title: "Korean Bulgogi Sauce",
+    img_path: "images/bulgogi_sauce.jpg",
+  },
 ];

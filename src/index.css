@@ -86,12 +86,12 @@ content {
 .recipe_header {
   margin: 30px 0px 10px 0px;
   font-family: "Oldenburg", serif;
-  font-size: 1.8rem;
+  font-size: x-large;
 }
 
 .section_header {
   font-family: "Oldenburg", serif;
-  font-size: x-large;
+  font-size: large;
   margin-bottom: 10px;
   text-decoration: underline;
 }
@@ -101,7 +101,7 @@ content {
 .list_item {
   margin-left: 30px;
   margin-bottom: 10px;
-  font-size: x-large;
+  font-size: large;
   font-family: "Lato", sans-serif;
 }
 
